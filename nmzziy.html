@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TENTANG DIRI SAYA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg,  #FDE2E4 , #CDEAC0 ,  #A2D2FF);
+      color: #ADD8E6;
+      text-align: center;
+      padding: 15px 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #34495e;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #ADD8E6;
+      margin: 0 20px;
+      text-decoration: none;
+    }
+    
+    .my-foto {
+      border-radius: 20px;
+      border:5px solid white;
+      box-shadow:0 15px 25px rgba(0, 0, 0, 0.2);
+    } 
+    
+    section {
+      padding: 25px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: #ADD8E6;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: #ADD8E6;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><marquee style="color:black;">𝙖𝙗𝙤𝙪𝙩 𝙢𝙮𝙨𝙚𝙡𝙛</h1></marquee>
+    <p style=color:black;">𝖆𝖓𝖔𝖒 𝖎𝖉𝖌𝖆𝖋 𝖊𝖗𝖆</p>
+  </header>
+
+  <nav>
+
+  <section id="ABOUT">
+    <div class="card">
+      <h2 style="color:black;">𝐀𝐁𝐎𝐔𝐓 𝐌𝐄</h2>
+      <b><p style=color:black;">Kenalin gua anom, usia gua 16 tahun.</p></b>
+      <img src="pu.png" width="100" hight="100" class="my-foto">
+    </div>
+  </section>
+
+  <section id="HOBBY">
+    <div class="card">
+      <h2 style="color:BLACK;">𝐇𝐎𝐁𝐁𝐘</h2>
+      
+       <b  style="color:black;">Menggambar</b>
+       <br>
+       <br>
+        <img src="ky.png" width="100" hight="100" class="my-foto">
+        <br>
+        <br>
+       <b  style="color:black;">Bermain game, Karena saya guru nya kairi</b>
+       <br>
+       <br>
+      <img src="wk.png" width="150" hight="150" class="my-foto">
+    </div>
+  </section>
+
+  <section id="MY FAVORITE SONG">
+    <div class="card">
+      <h2 style="color:black;">𝐌𝐘 
+      𝐅𝐀𝐕𝐎𝐑𝐈𝐓𝐄 𝐒𝐎𝐍𝐆</h2>
+    <b style="color:black;">Somebody's Pleasure</b>
+      <br>
+      <br>
+     <img src="sm.png" width="100" hight="100" class="my-foto">
+
+  <!-- Tombol kontrol -->
+  <div class="kontrol-audio">
+    <button onclick="document.getElementById('lagu').play()">▶ Play</button>
+    <button onclick="document.getElementById('lagu').pause()">⏸ Pause</button>
+  </div>
+
+  <audio id="lagu">
+    <source src="sik.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<style>
+.card {
+  background: #b3e5fc;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.kontrol-audio {
+  display: flex;
+  justify-content: center; /* tombol sejajar tengah */
+  gap: 10px;               /* jarak antar tombol */
+  margin-top: 10px;
+}
+
+.kontrol-audio button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.kontrol-audio button:first-child {
+  background-color:  #4CAF50; /* hijau segar untuk Play */
+  color: white;
+}
+
+.kontrol-audio button:last-child {
+  background-color: #f44336; /* merah untuk Pause */
+  color: white;
+}
+</style>
+    
+    </div>
+  </section>
+
+  <section id="INSTAGRAM">
+    <div class="card">
+      <h2 style="color:black;"></h2><h2>𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌</h2>
+      <b><p>CLICK!!</p></b>
+      <a href="https://www.instagram.com/nmzylates?igsh=cHZkazk4N2pzM215"><p align="center"><img src="wy.png" widht="100" height="100" border="0" alt="yt"></a>
+  
+
+    </div>
+  </section>
+
+  <footer>
+   <b><p>@NMZYLATES</p><b>
+  </footer>
+
+</body>
+</html>
